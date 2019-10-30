@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_x="55dp"
+        android:layout_y="0dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_x="55dp"
+        android:layout_y="25dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="305dp"
+        android:layout_y="0dp"
+        android:text="Call"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="2dp" />
+</AbsoluteLayout>
